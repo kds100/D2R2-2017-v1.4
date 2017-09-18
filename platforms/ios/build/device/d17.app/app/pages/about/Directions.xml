@@ -1,0 +1,53 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets"  xmlns:statusbar="nativescript-statusbar"
+  loaded="onPageLoad">
+
+   <page.actionBar>
+        <action-bar title="D2R2 Directions">
+            <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+            <action-bar.actionItems>
+                <ios>
+                    <!-- <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" /> -->
+                    <action-item ios.position="left" text="< Back" tap="onBack"/>
+                </ios>
+            </action-bar.actionItems>
+        </action-bar>
+    </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Directions page contents -->
+
+<ScrollView orientation="vertical">
+  <StackLayout orientation="vertical"  backgroundColor="white">
+
+  <Label textWrap="true" margin="9, 30, 0, 30"  text='For GPS' fontSize="26"/>
+  <Label textWrap="true" margin="9, 30, 0, 30"  text='beware this is but a field in the countryside..' fontSize="12"/>
+ <Label textWrap="true" margin="9, 30, 0, 30"  text='400 Mill Village Rd, Deerfield, MA' style.textAlignment="center"/>
+ <Label textWrap="true" margin="9, 30, 0, 30"  text='< OR >' style.textAlignment="center"/>
+ <Label textWrap="true" margin="9, 30, 0, 30"  text='100 Wells Cross Rd, Deerfield, MA' style.textAlignment="center"/>
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='For the traditional direction-takers...' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='From the South' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Take I-91 North to Exit 24 (Deerfield); take a right off the ramp onto US Route 5 North; 4.1 miles later, go left onto Wells Cross Road; at the end of the street, turn right onto Mill Village Road and proceed to our tent.' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='From the North' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Take I-91 South to Exit 26 (Greenfield - Route 2); go halfway around the traffic circle and get off onto Route 2A East; go right at the second light (Dunkin Donuts) onto River St; at the next light, go right onto US Route 5 South; 4.3 miles later, turn right onto Wells Cross Road; at the end of the street, turn right onto Mill Village Road and proceed to our tent.' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='From the Village of Old Deerfield' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Proceed south on Old Main Street; at the end of the historic district, fork right onto Mill Village Road; about a mile later you will see our tent.' />
+ 
+
+</StackLayout>
+</ScrollView>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

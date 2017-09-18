@@ -1,0 +1,117 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "kinvey-nativescript-sdk@^3.7.2",
+        "scope": null,
+        "escapedName": "kinvey-nativescript-sdk",
+        "name": "kinvey-nativescript-sdk",
+        "rawSpec": "^3.7.2",
+        "spec": ">=3.7.2 <4.0.0",
+        "type": "range"
+      },
+      "/Users/kstreeter/nsproj/d17"
+    ]
+  ],
+  "_from": "kinvey-nativescript-sdk@>=3.7.2 <4.0.0",
+  "_id": "kinvey-nativescript-sdk@3.7.2",
+  "_inCache": true,
+  "_location": "/kinvey-nativescript-sdk",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/kinvey-nativescript-sdk-3.7.2.tgz_1501275157538_0.739731621928513"
+  },
+  "_npmUser": {
+    "name": "thomas.conner",
+    "email": "thomas.conner@me.com"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "kinvey-nativescript-sdk@^3.7.2",
+    "scope": null,
+    "escapedName": "kinvey-nativescript-sdk",
+    "name": "kinvey-nativescript-sdk",
+    "rawSpec": "^3.7.2",
+    "spec": ">=3.7.2 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/kinvey-nativescript-sdk/-/kinvey-nativescript-sdk-3.7.2.tgz",
+  "_shasum": "4e3ef7f4cfd0e7fd925d0eaf8f911754f849aebd",
+  "_shrinkwrap": null,
+  "_spec": "kinvey-nativescript-sdk@^3.7.2",
+  "_where": "/Users/kstreeter/nsproj/d17",
+  "author": {
+    "name": "Kinvey"
+  },
+  "bugs": {
+    "url": "https://github.com/Kinvey/nativescript-sdk/issues"
+  },
+  "contributors": [
+    {
+      "name": "Thomas Conner",
+      "email": "thomas@kinvey.com"
+    }
+  ],
+  "dependencies": {
+    "es6-promise": "4.1.0",
+    "events": "1.1.1",
+    "kinvey-js-sdk": "3.6.0-ns.9",
+    "nativescript-sqlite": "1.1.7"
+  },
+  "description": "Kinvey JavaScript SDK for NativeScript applications.",
+  "devDependencies": {
+    "nativescript-dev-typescript": "0.4.5",
+    "tns-core-modules": "3.0.1",
+    "tns-platform-declarations": "3.0.1",
+    "typescript": "2.3.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4e3ef7f4cfd0e7fd925d0eaf8f911754f849aebd",
+    "tarball": "https://registry.npmjs.org/kinvey-nativescript-sdk/-/kinvey-nativescript-sdk-3.7.2.tgz"
+  },
+  "gitHead": "f35e411921c44261149e542a2e59449ef8c5ddac",
+  "homepage": "http://www.kinvey.com",
+  "keywords": [
+    "Kinvey",
+    "JavaScript",
+    "NativeScript"
+  ],
+  "license": "Apache-2.0",
+  "main": "./src/index.js",
+  "maintainers": [
+    {
+      "name": "tejasranade",
+      "email": "tejas.ranade@gmail.com"
+    },
+    {
+      "name": "thomas.conner",
+      "email": "thomas.conner@me.com"
+    }
+  ],
+  "name": "kinvey-nativescript-sdk",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kinvey/nativescript-sdk.git"
+  },
+  "scripts": {
+    "build": "rm -rf 'src/**/*.js' && rm -rf 'push/**/*.js' && tsc",
+    "postversion": "git push && git push --tags",
+    "preversion": "rm -rf node_modules && npm install && npm run build"
+  },
+  "typings": "./src/kinvey.d.ts",
+  "version": "3.7.2"
+}

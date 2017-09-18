@@ -1,0 +1,59 @@
+<page
+  xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+  xmlns:widgets="shared/widgets"
+  xmlns:statusbar="nativescript-statusbar"
+  loaded="pageLoaded">
+
+  <statusbar:StatusBar ios:barStyle="light" />
+
+  <page.actionBar>
+
+<action-bar title="D2R2 - Home"> 
+    <!--   {{titletext}} -->
+ 
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+    
+      <!-- Home page contents -->
+      <ScrollView orientation="vertical">
+      <stack-layout loaded="contentLoaded">
+        <image src="res://icon" id="logo" tap="fun" height="100" margin="20 0 0 0" />
+        <!--< Text for users -->
+        <label text="Welcome to the D2R2 Mobile App" margin="20 0 0 0" horizontalAlignment="center" textWrap="true" />
+        <label margin="8 14 0 14" horizontalAlignment="stretch" textWrap="true" text="This app provides the cue sheet and map for your chosen ride. You may change your ride selection at any time. You will be able to see the cue and map, even if there is no cell service." />
+        <label margin="8 14 0 14" horizontalAlignment="stretch" textWrap="true" text="The app also contains all of the information about the event such as start times, camping, and lodging."  />
+
+        <label margin="8 14 0 14" horizontalAlignment="stretch" textWrap="true" text="Choose your ride by using the Settings page.  Please inform D2R2 registration prior to leaving if you have changed rides."  />
+
+        <Button text="Settings" tap="settings" class="btn btn-primary btn-active"/>
+        
+        <label text="Tips for using the App" margin="20 0 0 0" horizontalAlignment="center" textWrap="true" />
+        
+        <label margin="8 10 0 10" horizontalAlignment="stretch" textWrap="true" text="Tap the Menu Icon in the upper left to navigate."  />
+
+        <label margin="8 10 0 10" horizontalAlignment="stretch" textWrap="true" text="Select Ride to see your Cue sheet and Map. Tap completed sections to mark them as done. Tap again to undo."  />
+
+        <label margin="8 10 0 10" horizontalAlignment="stretch" textWrap="true" text="Switch between Cue and Map using the Tab at the bottom of the screen. Slide the map around to view specific areas. It will stay in place if you switch back to the cue sheet."  />
+        
+        <label margin="8 10 0 10" horizontalAlignment="stretch" textWrap="true" text="If you need to change your ride length, tap the menu icon and choose Settings. Select your new choice and tap save."  />
+        
+ 
+      </stack-layout>
+      </ScrollView>
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

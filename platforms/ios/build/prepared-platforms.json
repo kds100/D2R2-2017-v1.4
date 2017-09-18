@@ -1,0 +1,11 @@
+{
+    "nativescript-dom": true,
+    "nativescript-drop-down": true,
+    "nativescript-localstorage": true,
+    "nativescript-materialdropdownlist": true,
+    "nativescript-statusbar": true,
+    "nativescript-telerik-ui": true,
+    "nativescript-theme-core": true,
+    "tns-core-modules": true,
+    "tns-core-modules-widgets": true
+}

@@ -1,0 +1,62 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets"  xmlns:statusbar="nativescript-statusbar"
+  loaded="onPageLoad">
+
+   <page.actionBar>
+        <action-bar title="D2R2 Courses">
+            <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+            <action-bar.actionItems>
+                <ios>
+                   <action-item ios.position="left" text="< Back" tap="onBack"/>
+                </ios>
+            </action-bar.actionItems>
+        </action-bar>
+    </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+    <!-- Home page contents -->
+    <ScrollView orientation="vertical">
+      <stack-layout loaded="contentLoaded">
+
+        <!-- ================= 180 K =================-->
+        <label class="courseheader" text="180K" margin="4" horizontalAlignment="center" />
+        <label class="coursedesc" text="The original, the legend, the ride that started it all. The 180K is harder than anything most riders have ever experienced. Famous 100-mile trail races have faster times than our 180K. At the same time, people have described it as a journey so wonderful that they wished it indeed would never end. A grand tour of Franklin County's secret back roads. Bring the low gear you need to climb a 20 percent grade with 100 miles in your legs, and plan on a full day." />
+
+        <!-- ================= Mystery Rides =================-->
+        <label class="courseheader" text="Mystery Rides" margin="4" horizontalAlignment="center" />
+        <label class="coursedesc" text="New for 2017! TWO one-time courses, never to be repeated. One long (170k-ish) and One short (100K-ish)- and the routes are a secret until you reach the starting line." margin="18 20 4 20" horizontalAlignment="center" textWrap="true" />
+        <label class="coursedesc" text="Each ride is limited to 200 attendees.   Basic information about the routes will be available shortly." margin="4 20 0 20" />
+        <label class="coursedesc" text="No cues or maps available until the morning of the ride." margin="4 20 10 20" />
+
+        <!-- ================= 160 K =================-->
+        <label class="courseheader" text="160K" margin="4" horizontalAlignment="center" />
+        <label class="coursedesc" text="The 160K is slightly shorter than the 180K, and it features an easier finish, losing 1500 feet elevation in the last 25 miles with no major climbs. However, the course also extends further east, north, and west than any route here, as well as reaching the highest elevation and having the most segments that are closed to cars. While some diehards insist on the 180K every year, many are now alternating between the two long courses and loving the variety, without ever going home on a 160K year wishing for more. " margin="20" horizontalAlignment="center" textWrap="true" />
+
+        <!-- ================= 115 K =================-->
+        <label class="courseheader" text="115K" margin="4" horizontalAlignment="center" />
+        <label class="coursedesc" text="The 115K is harder than the 100K, more so than the distance would suggest. Where the 100K gets 2/3 of its climbing done before lunch, the 115K issues four major climbs, one just before lunch and three afterward. Pennel Hill has been described as a sandbox tilted at 15%, and the descent following that has to be ridden to be believed. This ride also has three sections of jeep track and the Patten Hill climb. " margin="20" horizontalAlignment="center" textWrap="true" />
+
+        <!-- ================= 100 K =================-->
+        <label class="courseheader" text="100K" margin="4" horizontalAlignment="center" />
+        <label class="coursedesc" text="The 100K came about the very first year when RUSA (Randonneurs USA) administrator Don Podolski surveyed the 180K and politely suggested that a junior course would be a good idea. Indeed, half the riders took the short course that first year, and the 100K has been a staple ever since. The ride takes about as long as 100 miles on the road, and thus only here does it somehow get thought of as the short course! " margin="20" horizontalAlignment="center" textWrap="true" />
+
+        <!-- ================= 40 M =================-->
+        <label class="courseheader" text="40-mile" margin="4" horizontalAlignment="center" textWrap="true" style="font-size: 32; color: green;"/>
+        <label class="coursedesc" text="The 40-mile Green River Tour was sparsely attended for years, but finally, word is out that there is a way to enjoy the mystique of D2R2 without having to climb mountains. The first quarter is on pavement, the middle half follows Green River Road with an optional climb before lunch, and the last quarter is paved. Or skip the pavement, park at the head of Green River Road and take the 20-mile Family Ride (below). The hills are minimal, totally doable pulling a trailer. And ... it's Green River Road, which speaks for itself. " margin="20" horizontalAlignment="center" textWrap="true" />
+
+        <!-- ================= 12 M =================-->
+        <label class="courseheader" text="12-mile Family Ride" margin="4" horizontalAlignment="center" textWrap="true" style="font-size: 32; color: green;"/>
+        <label class="coursedesc" text="The Family Ride is designed for those riders with small children or riders who want to enjoy the D2R2 experience with a more modest physical challenge. The majority of this ride is on a relatively flat dirt road that runs adjacent to the Green River. The hills are minimal, totally doable pulling a trailer. And ... it's Green River Road, which speaks for itself. " margin="20" horizontalAlignment="center" textWrap="true" />
+
+        
+      </stack-layout>
+    </ScrollView>
+    </drawer:rad-side-drawer.mainContent>
+
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

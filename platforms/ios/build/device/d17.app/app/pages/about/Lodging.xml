@@ -1,0 +1,105 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets"  xmlns:statusbar="nativescript-statusbar"
+  loaded="onPageLoad">
+
+   <page.actionBar>
+        <action-bar title="D2R2 Lodging">
+            <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+            <action-bar.actionItems>
+                <ios>
+                    <action-item ios.position="left" text="< Back" tap="onBack"/>
+                </ios>
+            </action-bar.actionItems>
+        </action-bar>
+    </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Lodging page contents -->
+
+<ScrollView orientation="vertical">
+  <StackLayout orientation="vertical"  backgroundColor="white">
+ 
+  <Label textWrap="true" margin="9, 30, 0, 30"  text='Red Roof Inn ' />
+ <Label textWrap="true" margin="9, 30, 0, 30"  text='9 Greenfield Road, Deerfield (Exit 24 off I-91) ' />
+ <Label textWrap="true" margin="9, 30, 0, 30"  text='1-800-733-7663 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30"  text='Ask for the D2R2 Group Rate: B289D2R2Bk' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='The Landmark Trust' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='With historic vacation homes to rent in Vermont, including one - The Amos Brown House, which is home to our 160K and Mystery Ride lunch site!' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='The Deerfield Inn ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='81 Old Main Street, Deerfield ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 774-5587 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(800) 926-3865 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='frontdesk@deerfieldinnn.com ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='GROUP RATE: Please call (413) 774-5587 and refer to the D2R2 rate. Limited rooms available.' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Hampton Inn and Suites ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='184 Shelburne Road, Greenfield ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 773-0057  ' />
+
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text=' Hampton Inn  ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='24 Bay Road, Hadley, MA ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 586-4851 ' />
+
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Econo Lodge ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='329 Russell Street, Hadley, MA ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 582-7707  ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Holiday Inn Express ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='400 RussellStreet, Hadley, MA ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 582-0002  ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Belas B and B ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='595B River Road Deerfield, MA 01342 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 522-6394' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Quality Inn ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='125 Mohawk Trail, Greenfield (just off I-91 - Route 2A rotary) ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 774-2211' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Blue Heron Farm ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='8 Warner Hill Rd #1, Charlemont ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 339-4045 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='info@blueheronfarm.com' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Hawk Mountain Lodge at Zoar Outdoor ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='17 Main Street, Route 2, Charlemont ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(800) 532-7483 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='info@zoaroutdoor.com' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='The Oxbow Resort ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='1741 Mohawk Trail (Route 2), East Charlemont ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 625-6011 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='cmossman1@msn.com' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='The Warfield House Inn at Valley View Farm ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='200 Warfield Road, Charlemont ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 339-6600 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(888) 339-VIEW (8439) ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='info@warfieldhouseinn.com' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Kenburn Orchard Bed and Breakfast ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='1394 Mohawk Trail (Route 2), Shelburne ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 625-6116 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(877) KENBURN ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='info@kenburnorchards.com' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='Dancing Bear Guest House Bed and Breakfast ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='22 Mechanic Street, Shelburne Falls ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='(413) 625-9281 ' />
+ <Label textWrap="true" margin="9, 30, 0, 30" text='info@dancingbearguesthouse.com' />
+
+</StackLayout>
+</ScrollView>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

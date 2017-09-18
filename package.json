@@ -1,0 +1,27 @@
+{
+  "description": "D2R2 Ride app",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "https://github.com/kds100/D2R2-2017-v1.4.git",
+  "name": "D2R2-2017",
+  "version": "1.1",
+  "nativescript": {
+    "id": "org.flt.d17",
+    "tns-android": {
+      "version": "3.1.1"
+    },
+    "tns-ios": {
+      "version": "3.1.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-dom": "^2.0.0",
+    "nativescript-drop-down": "^3.0.2",
+    "nativescript-localstorage": "^1.1.5",
+    "nativescript-materialdropdownlist": "^1.0.15",
+    "nativescript-statusbar": "^3.0.1",
+    "nativescript-telerik-ui": "2.0.1",
+    "nativescript-theme-core": "~1.0.2",
+    "tns-core-modules": "3.1.1"
+  }
+}

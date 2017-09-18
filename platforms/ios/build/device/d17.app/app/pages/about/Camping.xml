@@ -1,0 +1,30 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets"  xmlns:statusbar="nativescript-statusbar"
+  loaded="onPageLoad">
+
+   <page.actionBar>
+        <action-bar title="D2R2 Camping">
+            <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+            <action-bar.actionItems>
+                <ios>
+                    <action-item ios.position="left" text="< Back" tap="onBack"/>
+                </ios>
+            </action-bar.actionItems>
+        </action-bar>
+    </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Home page contents -->
+      <stack-layout loaded="contentLoaded">
+        <image src="res://icon" id="logo" tap="fun" height="100" margin="20 0 0 0" />
+        <label textWrap="true" text="Camping is available to all riders. There is a nominal $30 charge, per vehicle, which covers one camp site from Friday at 2pm through Sunday at noon. Two nights of fun! The sites are rustic at best, no running water or electricity, however they are adjacent to the start of the ride, breakfast, dinner and beer!" />
+      </stack-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

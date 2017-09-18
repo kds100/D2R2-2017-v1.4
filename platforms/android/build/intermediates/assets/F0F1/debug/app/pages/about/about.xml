@@ -1,0 +1,39 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets" 
+xmlns:lv="nativescript-telerik-ui/listview" xmlns:statusbar="nativescript-statusbar" 
+  navigatedTo="navigatedTo" loaded="onPageLoad">
+
+  <page.actionBar>
+    <action-bar title="About the D2R2">
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- About page contents -->
+      <ListView id="listview" items="{{ myItems }}" loaded="contentLoaded" separatorColor="#000000" itemTap="onItemTap">
+                <ListView.itemTemplate>
+                      <StackLayout orientation="horizontal">
+
+                      <!-- <Label text="&#xf1e0; {{pageicon}}" class="font-awesome" style="font-size: 30; color: green;" /> -->
+                      <!-- <Button text="&#xf1e0; Test" tap="{{ tapAction }}" class="font-awesome" /> -->
+                      <!-- <image src="{{ imagepath }}" id="picture" width="20%" margin="20 0 10 0" /> -->
+                      <Label text="{{ pagename }}" textWrap="true" style="font-size: 24; color: green;"/>
+                
+                    </StackLayout>
+                </ListView.itemTemplate>
+            </ListView>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

@@ -1,0 +1,33 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets"  xmlns:statusbar="nativescript-statusbar"
+  loaded="onPageLoad">
+
+   <page.actionBar>
+        <action-bar title="About the D2R2">
+            <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+            <action-bar.actionItems>
+                <ios>
+                    <action-item ios.position="left" text="< Back" tap="onBack"/>
+                </ios>
+            </action-bar.actionItems>
+        </action-bar>
+    </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Home page contents -->
+      <stack-layout loaded="contentLoaded">
+
+
+        <image src="res://icon" id="logo" tap="fun" height="90" width="50" margin="16 10 0 30" style="font-size: 22; color: green;" width="30%"/>
+        <label margin="20" horizontalAlignment="center" textWrap="true" text="The Deerfield Dirt-Road Randonnee was conceived in the 1990's as just a favorite dirt-road loop in the hilltowns of Franklin County, Massachusetts. Since its birth as an organized event in 2005, many have hailed D2R2 as the hardest, most beautiful, most fun, most traffic-free, most unique, and overall best ride that they have ever done."  />
+        <label margin="20" horizontalAlignment="center" textWrap="true" text="D2R2 is the main fundraiser for the Franklin Land Trust, a non-profit organization in western Massachusetts that assists farmers and other landowners who want to protect their land from unwanted development. FLT has helped hundreds of families in western Massachusetts to craft conservation plans that address their financial goals, family needs, and conservation vision. " />
+      </stack-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

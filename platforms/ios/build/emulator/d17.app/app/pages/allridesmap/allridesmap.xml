@@ -1,0 +1,44 @@
+<page
+  xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+
+  xmlns:lv="nativescript-telerik-ui/listview"
+  xmlns:widgets="shared/widgets"
+  loaded="pageLoaded"
+  navigatedTo="navigatedTo">
+
+  <page.actionBar>
+    <action-bar title="{{titletext}}">
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- All Rides Map  page contents -->
+
+        <GridLayout rows="*" id = "mapgrid" loaded="contentLoaded" >
+            <ScrollView  orientation="horizontal">
+                <ScrollView  orientation="vertical">
+                    <StackLayout id ="maplayout" >  <!--  style="width:20%;" -->
+                        <!-- <Image id="allmapinage" src="~/shared/maps/AllRides.png" onMapTap="onMapTap" > </Image> -->
+                        <Button class="mapimage" id="map"  tap="{{ onTap }}" />
+                    </StackLayout>
+                </ScrollView>
+            </ScrollView>
+        </GridLayout>
+
+    </drawer:rad-side-drawer.mainContent>
+
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

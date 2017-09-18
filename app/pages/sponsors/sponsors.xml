@@ -1,0 +1,73 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets" xmlns:lv="nativescript-telerik-ui/listview" xmlns:statusbar="nativescript-statusbar" 
+  navigatedTo="navigatedTo">
+
+  <page.actionBar>
+    <action-bar title="D2R2 Sponsors 2017">
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Sponsors page contents -->
+    <ScrollView orientation="vertical">
+      <stack-layout loaded="contentLoaded">
+
+        <!-- ================= 180 K =================-->
+        <!--<image src="~/shared/resources/icon.png" id="logo" tap="fun" height="100" margin="10 0 0 0" />-->
+        <label text="Our 2017 Hosts" margin="4" horizontalAlignment="left" textWrap="true" style="font-size: 22; color: green;" margin="10 15 7 15"/>
+        <Label text='Pioneer Gardens, Inc., Deerfield, MA' margin="8 0 0 20" />
+        <Label text='Janet Clark & Nort Saltz, Ashfield, MA' margin="8 0 0 20" />
+        <Label text='Little Big House Gallery, Shelburne, MA' margin="8 0 0 20" />
+        <Label text='Tim Smith, Apex Orchards, Shelburne, MA '  margin="8 0 0 20"/>
+        <Label text='Wayne Meeks & Judith Colton, Charlemont, MA'  margin="8 0 0 20"/>
+        <Label text='Amy & David Krane, Heath, MA'  margin="8 0 0 20"/>
+        <Label text='Paul Eckstein, Leyden, MA' margin="8 0 0 20"/>
+        <Label text='Green River Village Preservation Trust, Guilford, VT'  margin="8 0 0 20"/>
+        <Label text='Addison & Adelaide Minott, Guilford, VT' margin="8 0 0 20" />
+        <Label text='Sidehill Farm, Hawley, MA'  margin="8 0 0 20"/>
+
+
+        <label text="Our 2017 Sponsors" margin="4" horizontalAlignment="left" textWrap="true" style="font-size: 22; color: green;" margin="14 15 7 15"/>
+
+        <Label text='AAA - Pioneer Valley'  margin="8 0 0 20"/>
+        <Label text='Apex Orchards '  margin="8 0 0 20"/>
+        <Label text='Atlas Farm  '  margin="8 0 0 20"/>
+        <Label text='Ben Barnhart Photography'  margin="8 0 0 20"/>
+        <Label text='Berkshire Brewing Company '  margin="8 0 0 20"/>
+        <Label text='Big Y Foods  '  margin="8 0 0 20"/>
+        <Label text='The Bement School  '  margin="8 0 0 20"/>
+        <Label text='Cabot Cheese '  margin="8 0 0 20"/>
+        <Label text='Clif Bar '  margin="8 0 0 20"/>
+        <Label text='Deerfield Academy '  margin="8 0 0 20"/>
+        <Label text='Diemand Farm  '  margin="8 0 0 20"/>
+        <Label text='Eaglebrook School '  margin="8 0 0 20"/>
+        <Label text="Foster's Super Market"   margin="8 0 0 20"/>
+        <Label text='Franklin County Amateur Radio Club '  margin="8 0 0 20"/>
+        <Label text='Historic Deerfield, Inc. ' margin="8 0 0 20" />
+        <Label text="People's Pint"   margin="8 0 0 20"/>
+        <Label text='Pioneer Gardens, Inc., Deerfield, MA '  margin="8 0 0 20"/>
+        <Label text='Pocumtuck Valley Memorial Association and the Memorial Hall Museums '  margin="8 0 0 20"/>
+        <Label text='Polar Beverages '  margin="8 0 0 20"/>
+        <Label text='Real Pickles ' margin="8 0 0 20"/>
+        <Label text='Sidehill Farm '  margin="8 0 0 20"/>
+        <Label text='The Landmark Trust '  margin="8 0 0 20"/>
+        <Label text='Yankee Candle Village '  margin="8 0 10 20"/>
+        
+      </stack-layout>
+    </ScrollView>
+      <!--</stack-layout>-->
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

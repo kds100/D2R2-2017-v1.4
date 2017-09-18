@@ -1,0 +1,13 @@
+<grid-layout class="drawer-content">
+  <stack-layout>
+  	<!-- <label text="Login" tap="navigate" class="{{ selectedPage == 'login' ? 'selected' : '' }}" /> -->
+    <label text="Home" tap="navigate" class="{{ selectedPage == 'home' ? 'selected' : '' }}" />
+
+    <label text="About" tap="navigate" class="{{ selectedPage == 'about' ? 'selected' : '' }}" />
+    <label text="Ride" tap="navigate" class="{{ selectedPage == 'ride' ? 'selected' : '' }}" />
+    <label text="Settings" tap="navigate" class="{{ selectedPage == 'settings' ? 'selected' : '' }}" />
+    <label text="Sponsors" tap="navigate" class="{{ selectedPage == 'sponsors' ? 'selected' : '' }}" />
+    <label text="AllRidesMap" tap="navigate" class="{{ selectedPage == 'allridesmap' ? 'selected' : '' }}" />
+
+  </stack-layout>
+</grid-layout>

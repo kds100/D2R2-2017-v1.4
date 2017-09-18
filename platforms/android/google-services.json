@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "329491316281",
+    "project_id": "api-5187962427252066262-670746"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329491316281:android:455bf6383cd938eb",
+        "android_client_info": {
+          "package_name": "org.flt.d17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329491316281-q0a7f7d91rsudcshisr8ph4fet1bj05u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhYK8raS4-6T24ju-yxSKNsZCTsLROikg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-104500515-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

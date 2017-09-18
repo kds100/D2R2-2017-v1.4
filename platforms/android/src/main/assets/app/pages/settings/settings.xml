@@ -1,0 +1,35 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets" xmlns:lv="nativescript-telerik-ui/listview" xmlns:statusbar="nativescript-statusbar" 
+  navigatedTo="navigatedTo" loaded="pageLoaded">
+
+  <page.actionBar>
+    <action-bar title="{{ titletext }}">
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+<ScrollView orientation="vertical">
+  <StackLayout orientation="vertical" class="form" loaded="pageLoaded">
+ 
+    <!-- <Label class="label" text="Email Address (Log out to change)" margin="20 0 0 0" style.textAlignment="center" fontSize="22" textWrap="true"></Label>
+    <Label class="label" text="{{ email }}" style.textAlignment="center"></Label> -->
+
+    <Label class="label" text="Select Your Ride" margin="20 0 0 0" style.textAlignment="center" fontSize="22"></Label>
+    <ListPicker items="{{ rideoptions }}" id="ridePicker" selectedIndex="{{ rideselectedindex }}"></ListPicker>
+
+    <Button text="Save" tap="save" class="btn btn-primary btn-active"/>
+  </StackLayout>
+</ScrollView>
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

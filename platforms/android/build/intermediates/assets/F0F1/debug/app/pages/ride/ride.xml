@@ -1,0 +1,72 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets" xmlns:lv="nativescript-telerik-ui/listview" xmlns:statusbar="nativescript-statusbar"
+  navigatedTo="navigatedTo" loaded="onPageLoad">
+
+    <page.actionBar>
+    <action-bar title="{{ titletext }}">
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Ride page contents -->
+      <GridLayout loaded="contentLoaded" id="swipablecue" >
+    
+        <TabView selectedTabTextColor="blue" tabBackgroundColor="darkgray" id="ridetab">
+          <TabView.items>
+              <TabViewItem title="Cue" textTransform="uppercase"  id="cuetab">
+                <TabViewItem.view>
+                    <ListView items="{{ cue.ridecue }}" height="700" itemTap="onItemTap" id="ridelist" >
+                       <ListView.itemTemplate> 
+
+                         <GridLayout  rows="*" columns="80, 80, *" class="{{isSelected ? 'ride-cue-completed' : 'ride-cue-item'}}" >
+                                <Label row="0" col="0" text="{{ cue }}" colSpan="{{ BLANK }}" textWrap="true"  />   <!-- class="{{BLANK == 3 ? 'ride-header-item' : 'ride-header-completed'}}" -->
+                                <Label row="0" col="1" text="{{ total }}"   />
+                                <Label row="0" col="2" text="{{ INSTR }}" textWrap="true"  />
+                        </GridLayout> 
+
+                       </ListView.itemTemplate> 
+                    </ListView>
+                </TabViewItem.view>
+                  </TabViewItem>
+                    <TabViewItem title="Map" textTransform="uppercase" id="maptab">
+                      <TabViewItem.view>
+                     
+
+<GridLayout rows="*" id="swipablemap">
+  <ScrollView   orientation="horizontal" propertyChange="onCheckChange">  <!-- ios.pagingEnabled="false" -->
+  <ScrollView   orientation="vertical" propertyChange="onCheckChange">
+    <StackLayout id="ridemapimage" propertyChange="onCheckChange">
+      <Image  src="{{ mapfile }}" onMapTap="onMapTap" stretch="aspectFill" propertyChange="onCheckChange" id="mapimage"> </Image>
+      <!--~/shared/maps/115K.png  -->
+    </StackLayout>
+  </ScrollView>
+  </ScrollView>
+  
+</GridLayout>
+
+ 
+                      </TabViewItem.view>
+                    </TabViewItem>
+                </TabView.items>
+          </TabView>
+
+      </GridLayout>
+
+    </drawer:rad-side-drawer.mainContent>
+
+
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+ 
+
+</page>

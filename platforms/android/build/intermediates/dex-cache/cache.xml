@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-fragment-26.0.0-alpha1_f24cde17347c6d107b6c8be1d56976d3f4e74bfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-base-9.0.0_a51c0a1ae8fb37c62bd39af67971a3188032ebb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-basement-9.0.0_67cc71685710911adfcd1fb9afb6fc711e41c5b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/pushplugin/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9dce8140e7f291f1aada226a11cf767bc90715f4">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-pushplugin_856b493b39607322d512011eb002430c43d37a8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-ui-26.0.0-alpha1_11f1a5cb0bd33c2f5efdd4dd17a78928f6ada534.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-transition-26.0.0-alpha1_a48124f0d36d9c8059c754c85e5e58c13ef83cf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-compat-26.0.0-alpha1_a60bf61327d63bb36538cbd2c985e9963baeb77b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/List-2017.1.504-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="68e4f95c7b18e9879ebfb526a9545ed960ef3190">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-List-2017.1.504-dev-release_6dc257568e905ea990d5ece74c3610eba0f433d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-common-9.0.0_825be7f4a89633c052bb23dc4a8dc95d9985bc56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-26.0.0-alpha1_a0311673f9ce05df54c61de50dd0e3164a01ec1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-26.0.0-alpha1_4cdf62b914f2243bb90d74109b6f1911f0f78cf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_6b6c416fdfccfae41bad17e3f733174d259736a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-26.0.0-alpha1_babb2bbdd3c9336ba47797f555907fbfd159ef67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ada15dd7aad50793dcd67b281a8eb06e80007500">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_9cb2ee95d1139b61c26bbdd4c25ec6a0d5ef3267.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-design-26.0.0-alpha1_21717ed98dbdad13804ee7a411831f2247c66a99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/Data-2017.1.504-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b641bfe74a612df8e72181362ec895f8f56f73e">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Data-2017.1.504-dev-release_0b673c2596ce352718c55394bb38258daedff1f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_1c076157fa718337571af153066cd476affeeccd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/d17/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/binding-generator_427ec6d45897d8489c0fa9e7f69a3b7f7fa80837.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-9.0.0_b08a7ec4d21d1405a62ade54b408c5f0a4a056fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-iid-9.0.0_8a9bb4b2714d8e3cfee2f305b917da8c6bbe101c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/Common-2017.1.504-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="35d17e8af8b765ad6db33ed0dad10fd3945aec35">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Common-2017.1.504-dev-release_c74c951521ec6638aa9a11de54f9754e85b4ca82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/Primitives-2017.1.504-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8370f7dca6cdb1c2b3407855a4c6d481ddd7b0d6">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Primitives-2017.1.504-dev-release_88989509f48c75b5f203fc24a1b90a314b8b2f6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/d17/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="30b97ea5d6274e02330dcc69943087778363c172">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/d17-runtime-unspecified_92a678158cf36255ffaa63a0663b3e5ec73750f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-impl-9.0.0_97ee61c4264b51a8dc61076066a9f17da10c11f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-utils-26.0.0-alpha1_55ca8b3516d457ff51646a64ac144478c90ba504.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-media-compat-26.0.0-alpha1_c239ba2b28ebe9d12e1cefa87c4ea24c366e8c71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-tasks-9.0.0_17af5f6dd6dac18f1fad1f34ab15af1430aac258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/kstreeter/nsproj/d17/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_09d3c3ef539074c6a1f6952a8f4c8c3710571b32.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,40 @@
+  <page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:widgets="shared/widgets"  xmlns:statusbar="nativescript-statusbar"
+  loaded="onPageLoad">
+
+   <page.actionBar>
+        <action-bar title="D2R2 Ride Starting Times">
+            <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+            <action-bar.actionItems>
+                <ios>
+                    <action-item ios.position="left" text="< Back" tap="onBack"/>
+                </ios>
+            </action-bar.actionItems>
+        </action-bar>
+    </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer" >
+    <drawer:rad-side-drawer.mainContent>
+
+      <ScrollView orientation="vertical">
+        <StackLayout orientation="vertical"  backgroundColor="lightgray" id="starttimestext">
+            <Label textWrap="true" margin="22, 20, 0, 20" text="Registration Headquarters opens at 5:00 AM" color="Sienna" />
+            <Label textWrap="true" margin="18, 20, 2, 20" text="Campers may register from 4-9 pm on Friday, August 18th " color="Sienna"/>
+            <Label  text="180K   -   6:00 AM"  height="38" margin="6" textAlignment="center" backgroundColor="PapayaWhip"></Label>
+            <Label  text="170K Mystery   -   6:30 AM"  height="38" margin="6" textAlignment="center" backgroundColor="DarkKhaki"></Label>
+            <Label  text="160K   -   7:00 AM"  height="38" margin="8" textAlignment="center" backgroundColor="PapayaWhip"></Label>
+            <Label  text="115K   -   8:00 AM"  height="38" margin="8" textAlignment="center" backgroundColor="PapayaWhip"></Label>
+            <Label  text="100K   -   9:00 AM"  height="38" margin="8" textAlignment="center" backgroundColor="PapayaWhip"></Label>
+            <Label  text="100K Mystery   -   9:30 AM"  height="38" margin="8" textAlignment="center" backgroundColor="DarkKhaki"></Label>
+            <Label  text="40 Mile Tour   -   10 to 11 AM"  height="38" margin="8" textAlignment="center" backgroundColor="PapayaWhip"></Label>
+            <Label  text="12 Mile Family Ride*   -   10 to 11 AM"  height="38" margin="8" textAlignment="center" backgroundColor="PapayaWhip"></Label>
+            <Label textWrap="true" margin="2, 20, 0, 20" text="* Please Note - Registration and starting point for the Family Ride will be at a different location than the main headquarters!" style="font-size: 12; color: black;"/>
+        </StackLayout> 
+      </ScrollView>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>
