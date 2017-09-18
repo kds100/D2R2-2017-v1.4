@@ -7,8 +7,8 @@ var application = require("application");
 
 // Connect to the D2R2 Kinvey services
 // Kinvey.init({
-//   appKey: 'kid_B1l0WAVUW',
-//   appSecret: 'e32c2a90e0a547e984a7cdd1b6148476'
+//   appKey: 'HIDDEN',
+//   appSecret: 'HIDDEN'
 // });
 
 // Test connection to Kinvey backend services at startup
