@@ -1,4 +1,14 @@
 var application = require("application");
+
+// NOTE - Kinvey was in use for storage and push notifications.  
+//
+// Ultimately there was an issue with Kinvey not functioning when user was out of cell range.
+// Given the timeline, it was not possible to sort out this issue prior to the ride day.
+// Kinvey was therefore commented out of this code.
+
+// The next release will feature Kinvey sign on for storage and push abilities.
+
+
 //var Kinvey = require('kinvey-nativescript-sdk').Kinvey;
 
 // Get reference to the push plugin module.
